@@ -40,7 +40,7 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        EXCLUDED: shihlings/shihlings.github.io, shihlings/cpen211-labs, shihlings/media, shihlings/elec201, shihlings/github-stats, shihlings/adblock-server-web
+        EXCLUDED: shihlings/media, shihlings/elec201, shihlings/github-stats, shihlings/adblock-server-web
         EXCLUDED_LANGS: ${{ secrets.EXCLUDED_LANGS }}
         EXCLUDE_FORKED_REPOS: true
 

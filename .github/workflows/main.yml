@@ -41,7 +41,7 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         EXCLUDED: shihlings/MCP2544WFDT-Breakout, shihlings/shihlings, shihlings/media, shihlings/github-stats, shihlings/adblock-server-web, shihlings/shihlings.github.io, shihlings/apsc100, shihlings/civl250, shihlings/cpen211-labs, shihlings/cpen211, ubc-cpen211/lab-3-l1c-shihlings, ubc-cpen211/lab-4-l1c-shihlings, ubc-cpen211/lab-5-l1c-shihlings, ubc-cpen211/lab-6-l1c-shihlings, ubc-cpen211/lab-7-l1c-shihlings, ubc-cpen211/lab-7-l1c-bonus-shihlings, shihlings/cpen311, shihlings/cpen311-labs, shihlings/cpsc259, shihlings/elec201, shihlings/elec202, shihlings/elec211, shihlings/elec221, shihlings/elec281, shihlings/elec291, shihlings/math
-        EXCLUDED_LANGS: Stata, Yacc, Lex, Roff, Batchfile, HTML, Scheme, M4, Mathematica, Tcl
+        EXCLUDED_LANGS: Stata, Yacc, Lex, Roff, Batchfile, HTML, Scheme, M4, Mathematica, Tcl, Shell
         EXCLUDE_FORKED_REPOS: true
 
     # Commit all changed files to the repository
